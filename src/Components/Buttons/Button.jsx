@@ -1,4 +1,4 @@
-function ButtonComponent({onClick = () => {}, label = "", className="", disabled=() => {}}){
-    return <button  className={className} onClick={onClick} disabled={disabled}>{label}</button>
+function ButtonComponent({onClick = () => {}, label = "", className=""}){
+    return <button  className={className} onClick={onClick} >{label}</button>
 }
 export default ButtonComponent;
