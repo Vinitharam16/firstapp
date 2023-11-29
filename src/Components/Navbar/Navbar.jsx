@@ -66,6 +66,7 @@ export default function Navbar({ onLogin = () => { } }) {
                                     navigate("/cart")
                                 }} />
                             <ButtonComponent label="Signup" className="btn" />
+                            
                         </React.Fragment>
                     )}
                     <Link to={'/cart'} className='nav-link' style={{ color: "white" }}><i className='bx bx-cart bx-md bx-fw bx-pull-right' style={{ color: "white" }}></i>Cart</Link>
